@@ -1,0 +1,73 @@
+.log{
+	border: 2px ;
+	border-radius: 50%;
+	display: block;
+	
+	background-color: white;
+
+
+}
+.log{
+	margin-top: 40px;
+	padding-bottom: 40px;
+
+}
+.white{
+	color: #008ea1 !important;
+}
+
+
+.cardlogin{
+	width: 2.5rem;
+	border: solid 2px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.img{
+	border-radius: 50%;
+	border: solid 2px;
+}
+.log{
+	margin-right: 25rem;
+}
+.logo{
+	width: 266px  !important;
+}
+.iconmargin{
+	margin-right: 7px !important;	
+}
+/*************************/
+/*     02. form-recherche     */
+/*************************/
+
+.Recherche_p{
+	Background-Color: #Eeeeee;
+	Border: 1px Solid #Dddddd;
+	Padding: 10px 10px 10px 10px;
+}
+
+.Recherche-Input{
+	Border: 0;
+	Width: 0;
+	Line-Height: 37px;
+}
+.Recherche-Barr> .Recherche-Input{
+	Padding: 0 10px;
+	Width: 450px;
+	Transition: Width 0.4s Linear;
+}
+.Recherche-Icone:hover{
+	Color: White;
+}
+.Recherche-Icone{
+	Height: 40px;
+	Width: 40px;
+	Float: Right;
+	Display: Flex;
+	Justify-Content: Center;
+	Align-Items: Center;
+	Border-Radius: 50%;
+	Color: White;
+}
+
