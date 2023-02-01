@@ -1,4 +1,4 @@
-import React, { Component,useEffect,useState } from 'react' ;
+
 import { BrowserRouter, Route,Navigate,NavLink,useNavigate  } from 'react-router-dom';
 export default function Depense(){
     return(
@@ -18,18 +18,89 @@ export default function Depense(){
                                 <form className="form-horizontal " style={{borderLeft :"solid #3c8dbc",borderTop :"solid #3c8dbc", background:'#eee'}}  >
                                     <div className="box-body">
                                         <div className="form-group">
-                                        <label htmlFor="inputEmail3" className="col-sm-3 control-label">Amount to transfert *</label>
+                                        <label htmlFor="inputEmail3" className="col-sm-3 control-label">farine</label>
                                         <div className="col-sm-7">
                                             <input required type="number"className="form-control" name="amount"   id="montant" />
                                         </div>
                                         <div className="col-sm-2">
                                             <select id="currency" className="form-control" name="transaction_currency">
-                                                <option value="XAF" defaultValue>FCFA</option>
+                                                <option defaultValue>FCFA</option>
+                                                <option >KG</option>
                                             </select>
                                         </div>
                                         </div>
                                         <div className="form-group">
-                                            <label htmlFor="inputPassword3" className="col-sm-3 control-label">Receiver*</label>
+                                        <label htmlFor="inputEmail3" className="col-sm-3 control-label">sucre</label>
+                                        <div className="col-sm-7">
+                                            <input required type="number"className="form-control" name="amount"   id="montant" />
+                                        </div>
+                                        <div className="col-sm-2">
+                                            <select id="currency" className="form-control" name="transaction_currency">
+                                                <option  defaultValue>FCFA</option>
+                                                <option >KG</option>
+                                            </select>
+                                        </div>
+                                        </div>
+                                        <div className="form-group">
+                                        <label htmlFor="inputEmail3" className="col-sm-3 control-label">l'huile</label>
+                                        <div className="col-sm-7">
+                                            <input required type="number"className="form-control" name="amount"   id="montant" />
+                                        </div>
+                                        <div className="col-sm-2">
+                                            <select id="currency" className="form-control" name="transaction_currency">
+                                                <option defaultValue>FCFA</option>
+                                                <option >L</option>
+                                            </select>
+                                        </div>
+                                        </div>
+                                        <div className="form-group">
+                                        <label htmlFor="inputEmail3" className="col-sm-3 control-label">bois</label>
+                                        <div className="col-sm-7">
+                                            <input required type="number"className="form-control" name="amount"   id="montant" />
+                                        </div>
+                                        <div className="col-sm-2">
+                                            <select id="currency" className="form-control" name="transaction_currency">
+                                                <option defaultValue>FCFA</option>
+                                                
+                                            </select>
+                                        </div>
+                                        </div>
+                                        <div className="form-group">
+                                        <label htmlFor="inputEmail3" className="col-sm-3 control-label">scuire</label>
+                                        <div className="col-sm-7">
+                                            <input required type="number"className="form-control" name="amount"   id="montant" />
+                                        </div>
+                                        <div className="col-sm-2">
+                                            <select id="currency" className="form-control" name="transaction_currency">
+                                                <option  defaultValue>FCFA</option>
+                                                <option>Sac</option>
+                                            </select>
+                                        </div>
+                                        </div><div className="form-group">
+                                        <label htmlFor="inputEmail3" className="col-sm-3 control-label">sel</label>
+                                        <div className="col-sm-7">
+                                            <input required type="number"className="form-control" name="amount"   id="montant" />
+                                        </div>
+                                        <div className="col-sm-2">
+                                            <select id="currency" className="form-control" name="transaction_currency">
+                                                <option defaultValue>FCFA</option>
+                                                <option>KG</option>
+                                            </select>
+                                        </div>
+                                        </div>
+                                        <div className="form-group">
+                                        <label htmlFor="inputEmail3" className="col-sm-3 control-label">emballages</label>
+                                        <div className="col-sm-7">
+                                            <input required type="number"className="form-control" name="amount"   id="montant" />
+                                        </div>
+                                        <div className="col-sm-2">
+                                            <select id="currency" className="form-control" name="transaction_currency">
+                                                <option defaultValue>FCFA</option>
+                                            </select>
+                                        </div>
+                                        </div>
+                                        <div className="form-group">
+                                            <label htmlFor="inputPassword3" className="col-sm-3 control-label">Email*</label>
                                             <div className="col-sm-9">
                                               <input required type="email" className="form-control"  name="receiver"  id="reciver" />
                                             </div>  
@@ -50,10 +121,10 @@ export default function Depense(){
                                         {/* <button   className="btn btn-primary pull-right"  type="submit"></button> */}
                                         <button   className="btn btn-primary pull-right"  type="submit">
                                            
-                                            <i className="fa fa-check"></i> tranfer
+                                            <i className="fa fa-check"></i> Valider
                                         </button>
                                         <div className="pull-right" >
-                                            <a href="#" className="btn btn-danger btn-flat">Logout</a>
+                                            <a href="#" className="btn btn-danger btn-flat">Appercue</a>
                                         </div>
                                         </div>
                                         </div>
