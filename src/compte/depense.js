@@ -17,6 +17,17 @@ export default function Depense(){
                                 </div>
                                 <form className="form-horizontal " style={{borderLeft :"solid #3c8dbc",borderTop :"solid #3c8dbc", background:'#eee'}}  >
                                     <div className="box-body">
+                                    <div className="form-group">
+                                        <label htmlFor="inputEmail3" className="col-sm-3 control-label">Recette</label>
+                                        <div className="col-sm-7">
+                                            <input required type="number"className="form-control" name="amount"   id="montant" />
+                                        </div>
+                                        <div className="col-sm-2">
+                                            <select id="currency" className="form-control" name="transaction_currency">
+                                                <option defaultValue>FCFA</option>
+                                            </select>
+                                        </div>
+                                        </div>
                                         <div className="form-group">
                                         <label htmlFor="inputEmail3" className="col-sm-3 control-label">farine</label>
                                         <div className="col-sm-7">
